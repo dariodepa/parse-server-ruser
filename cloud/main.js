@@ -814,7 +814,7 @@ function sendAllMessage(request){
 	listFunctionsToCall.push( functionGetOfferDetail);
 	//results4
 	if(type === TYPE_NEW_REQUEST ){
-		console.log("TYPE_NEW_REQUEST");
+		console.log("TYPE_NEW_REQUEST SERVICES");
 		// functionGetAddressesEmail = getListAllEmailProfessional();
 		functionGetAddressesEmail = decodeSubscriberList(subscribersList);
 		console.log("*** functionGetAddressesEmail: "+functionGetAddressesEmail);
