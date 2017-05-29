@@ -832,6 +832,7 @@ function sendAllMessage(request){
 		functionGetAddressesEmail = getListEmailProfessionalSentOffer(idListForms);
 		listFunctionsToCall.push(functionGetAddressesEmail);
 	}
+	console.log("listFunctionsToCall: "+listFunctionsToCall);
     Parse.Promise.when(listFunctionsToCall).then(
 		function(results){
 			"use strict";
